@@ -22,6 +22,9 @@ use App\Http\Controllers\Backend\ProductController;
 
 
 Route::get('/',function(){
+    return view('front.index');
+});
+Route::get('/admin',function(){
     return view('admin.index');
 });
 
